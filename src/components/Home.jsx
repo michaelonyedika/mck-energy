@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Analytics from "./Analytics";
@@ -19,4 +21,7 @@ const Home = () => {
   );
 };
 
+AOS.init({
+  duration: "1000",
+});
 export default Home;

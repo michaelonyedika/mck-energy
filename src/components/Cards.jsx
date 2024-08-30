@@ -12,6 +12,8 @@ const Card = () => {
         <div
           className="flex flex-col p-4 my-4 shadow-xl rounded-lg 
             duration-300 hover:scale-105"
+          data-aos="fade-down-left"
+          data-aos-delay="0"
         >
           <img
             src={single}
@@ -41,6 +43,8 @@ const Card = () => {
         <div
           className="flex flex-col p-4 my-6 bg-gray-100 
           shadow-xl rounded-lg duration-300 hover:scale-105 md:my-0"
+          data-aos="fade-down-left"
+          data-aos-delay="100"
         >
           <img
             src={double}
@@ -70,6 +74,8 @@ const Card = () => {
         <div
           className=" w-full flex flex-col p-4 my-4 shadow-xl rounded-lg 
             duration-300 hover:scale-105"
+          data-aos="fade-down-left"
+          data-aos-delay="200"
         >
           <img
             src={triple}

@@ -14,6 +14,7 @@ const Footer = () => {
       <div
         className=" max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 text-gray-300 
         gap-8 "
+        data-aos="zoom-in-up"
       >
         {/* Left Item */}
         <div className=" lg:col-span-1">

@@ -5,7 +5,10 @@ const Analytics = () => {
   return (
     <div className=" w-full bg-white py-16 px-4">
       {/* Grid Container */}
-      <div className=" max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
+      <div
+        className=" max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8"
+        data-aos="fade-up"
+      >
         <img
           src={wind_turbin}
           alt="wind_turbin"
