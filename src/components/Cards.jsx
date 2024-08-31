@@ -5,7 +5,7 @@ import triple from "../assets/triple.png";
 
 const Card = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
+    <div className="w-full py-[10rem] px-4 bg-white overflow-hidden">
       {/* Grid Container */}
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         {/* Item 1 */}
@@ -75,7 +75,7 @@ const Card = () => {
           className=" w-full flex flex-col p-4 my-4 shadow-xl rounded-lg 
             duration-300 hover:scale-105"
           data-aos="fade-down-left"
-          data-aos-delay="200"
+          data-aos-delay="150"
         >
           <img
             src={triple}

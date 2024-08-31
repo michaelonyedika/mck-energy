@@ -43,7 +43,7 @@ const Navbar = () => {
         <div
           className={
             isOpen
-              ? "fixed left-0 top-0 w-[60%] h-full bg-[#000300] border-r border-r-slate-900 ease-in-out duration-500 md:hidden"
+              ? "fixed left-0 top-0 w-[60%] h-full bg-[#000300] border-r border-r-slate-900 ease-in-out duration-500 md:hidden z-10"
               : "fixed -left-[100%] ease-in-out duration-500"
           }
         >

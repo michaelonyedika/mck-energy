@@ -8,22 +8,20 @@ const Hero = () => {
       className="text-white max-w-[800px] w-full mx-auto h-[500px] flex flex-col 
        text-center mt-16"
     >
-      <h4 className="font-bold text-greenColor p-2">
+      <h4 className="font-bold text-greenColor p-2" data-aos="fade-down">
         Electricity for every Home
       </h4>
 
       <div
         className=" flex items-center justify-center text-4xl sm:text-5xl md:py-6 
       md:text-6xl font-bold"
-        data-aos="flip-up"
-        data-aos-delay="0"
-        data-aos-duration="1000"
+        data-aos="zoom-in"
       >
         <HiOutlineLightBulb className=" text-yellow-400" />
         24/7 Power Supply
       </div>
 
-      <div className=" flex justify-center items-center">
+      <div className=" flex justify-center items-center" data-aos="zoom-in">
         <h1 className="text-xl font-bold py-4 sm:text-3xl md:text-4xl">
           Reliable power, generated from
         </h1>
@@ -39,8 +37,7 @@ const Hero = () => {
 
       <h3
         className="text-xl font-bold text-gray-500 md:text-2xl"
-        data-aos="fade-right"
-        data-aos-duration="500"
+        data-aos="zoom-in"
       >
         Our mission is to harness the power of nature to provide clean,
         reliable, and affordable energy.
@@ -49,7 +46,7 @@ const Hero = () => {
       <button
         className="w-[200px] mx-auto my-6 py-3 text-black font-medium bg-greenColor 
         rounded-md hover:opacity-80 transition duration-300 "
-        data-aos="fade"
+        data-aos="fade-up"
       >
         Get Started
       </button>

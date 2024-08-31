@@ -5,18 +5,17 @@ const Analytics = () => {
   return (
     <div className=" w-full bg-white py-16 px-4">
       {/* Grid Container */}
-      <div
-        className=" max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8"
-        data-aos="fade-up"
-      >
+      <div className=" max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
         <img
           src={wind_turbin}
           alt="wind_turbin"
           className=" w-[400px] mx-auto my-0 rounded-xl"
+          data-aos="fade-up"
+          // data-aos-delay="200"
         />
 
         {/* Right Item */}
-        <div className=" flex flex-col justify-center">
+        <div className=" flex flex-col justify-center" data-aos="fade-up">
           <h4 className=" font-bold text-greenColor">DATA-DRIVEN INNOVATION</h4>
 
           <h1 className=" text-2xl my-2 font-bold sm:text-3xl md:text-4xl">

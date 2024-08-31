@@ -14,10 +14,9 @@ const Footer = () => {
       <div
         className=" max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 text-gray-300 
         gap-8 "
-        data-aos="zoom-in-up"
       >
         {/* Left Item */}
-        <div className=" lg:col-span-1">
+        <div className=" lg:col-span-1" data-aos="zoom-in-up">
           <h1 className=" w-full text-greenColor text-2xl md:text-3xl font-bold mb-2">
             Mck Energy
           </h1>
@@ -38,7 +37,10 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <div className=" flex justify-between mt-6 lg:col-span-2">
+        <div
+          className=" flex justify-between mt-6 lg:col-span-2"
+          data-aos="zoom-in-up"
+        >
           {/* Link 1 */}
           <div className="">
             <h4 className=" text-gray-400 font-medium">Solutions</h4>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./Navbar";
@@ -9,6 +9,13 @@ import Card from "./Cards";
 import Footer from "./Footer";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({
+      delay: "100",
+      duration: "1000",
+    });
+  }, []);
+
   return (
     <div>
       <Navbar />
@@ -21,7 +28,4 @@ const Home = () => {
   );
 };
 
-AOS.init({
-  duration: "1000",
-});
 export default Home;

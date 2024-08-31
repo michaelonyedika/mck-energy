@@ -6,7 +6,11 @@ const Newletter = () => {
       {/* Grid Container */}
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         {/* Text Container */}
-        <div className="lg:col-span-2 my-4" data-aos="zoom-in">
+        <div
+          className="lg:col-span-2 my-4"
+          data-aos="slide-right"
+          // data-aos-delay="0"
+        >
           <h1 className=" text-2xl py-2 font-bold sm:text-3xl md:text-4xl">
             Want tips to optimize your energy efficient?
           </h1>
